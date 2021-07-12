@@ -12,14 +12,23 @@
 <body>
     
     <header>
-        <div class="container container-flex">
-            <div class="col-flex logo">
+        <div class="container__flex">
+            <div class="colflex__logo">
                 <h1>Logo</h1>
             </div>
 
-            <div class="col-flex menu">
+            <div class="colflex__menu">
+                <label class="colflex__menu--label" for="menu">
+                    <span class="menu__span"></span>
+                    <span class="menu__span"></span>
+                    <span class="menu__span"></span>
+                </label>
                 <nav>
-                    <ul id="menu-menu-principal" class="menu">
+                    <input type="checkbox" id="menu" />
+                    <ul class="menu__principal">
+                        <li>
+                            <label class="menu__principal--name">Categorias</label>
+                        </li>
                         <li>
                             <a href="#">Masculino</a>
                         </li>
@@ -31,7 +40,6 @@
                         </li>
                         <li>
                             <a href="#">Esportes</a>
-                        </li>
                         </li>
                         <li>
                             <a href="#">Futebol</a>
@@ -50,6 +58,7 @@
                         </li>
                     </ul>
                 </nav>
+                
             </div>
         </div> 
     </header>
@@ -59,6 +68,132 @@
         <section class="produtos">
 
             <h3>Destaque</h3>
+
+            <ul class="produtos_lista">
+                
+                <li class="produto">
+                    
+                    <span class="produto_desconto">2%</span>
+
+                    <figure class="produto_foto">
+                        <img src="assets/img/132718815_1GG.webp" alt="">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                   
+                    <h2>Smart TV LED 42" Philco Ptv42g70n5cf Full HD 3 HDMI 2 USB com Midiacast</h2>
+                    
+                    <div class="produto_avaliacao">
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 1.699,99</span>
+                        <strong>R$ 1.649,99</strong>
+                        <p>1x de R$ 1.649,99 sem juros no cartão</p>
+                    </div>
+
+                    <button class="produto_adicionar_carrinho">Comprar</button>
+
+                </li>
+
+                <li class="produto">
+                    
+                    <span class="produto_desconto"> 2%</span>
+
+                    <figure class="produto_foto">
+                        <img src="assets/img/1818873810_1GG.webp" alt="">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                   
+                    <h2>Smart TV LED 42" Philco Ptv42g70n5cf Full HD 3 HDMI 2 USB com Midiacast</h2>
+                    
+                    <div class="produto_avaliacao">
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 1.699,99</span>
+                        <strong>R$ 1.649,99</strong>
+                        <p>1x de R$ 1.649,99 sem juros no cartão</p>
+                    </div>
+
+                    <button class="produto_adicionar_carrinho">Comprar</button>
+
+                </li>
+
+                <li class="produto">
+                    
+                    <span class="produto_desconto"> 2%</span>
+
+                    <figure class="produto_foto">
+                        <img src="assets/img/2407778068_1GG.webp" alt="">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                   
+                    <h2>Smart TV LED 42" Philco Ptv42g70n5cf Full HD 3 HDMI 2 USB com Midiacast</h2>
+                    
+                    <div class="produto_avaliacao">
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 1.699,99</span>
+                        <strong>R$ 1.649,99</strong>
+                        <p>1x de R$ 1.649,99 sem juros no cartão</p>
+                    </div>
+
+                    <button class="produto_adicionar_carrinho">Comprar</button>
+
+                </li>
+
+                <li class="produto">
+                    
+                    <span class="produto_desconto"> 2%</span>
+
+                    <figure class="produto_foto">
+                        <img src="assets/img/2638610300_1GG.webp" alt="">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                   
+                    <h2>Smart TV LED 42" Philco Ptv42g70n5cf Full HD 3 HDMI 2 USB com Midiacast</h2>
+                    
+                    <div class="produto_avaliacao">
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 1.699,99</span>
+                        <strong>R$ 1.649,99</strong>
+                        <p>1x de R$ 1.649,99 sem juros no cartão</p>
+                    </div>
+
+                    <button class="produto_adicionar_carrinho">Comprar</button>
+
+                </li>
+ 
+            </ul>
+
+        </section>
+
+        <section class="produtos">
+
+            <h3>Lançamentos</h3>
 
             <ul class="produtos_lista">
                 
@@ -90,13 +225,102 @@
                     <button class="produto_adicionar_carrinho">Comprar</button>
 
                 </li>
+
+                <li class="produto">
+                    
+                    <span class="produto_desconto"> 2%</span>
+
+                    <figure class="produto_foto">
+                        <img src="assets/img/1818873810_1GG.webp" alt="">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                   
+                    <h2>Smart TV LED 42" Philco Ptv42g70n5cf Full HD 3 HDMI 2 USB com Midiacast</h2>
+                    
+                    <div class="produto_avaliacao">
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 1.699,99</span>
+                        <strong>R$ 1.649,99</strong>
+                        <p>1x de R$ 1.649,99 sem juros no cartão</p>
+                    </div>
+
+                    <button class="produto_adicionar_carrinho">Comprar</button>
+
+                </li>
+
+                <li class="produto">
+                    
+                    <span class="produto_desconto"> 2%</span>
+
+                    <figure class="produto_foto">
+                        <img src="assets/img/2407778068_1GG.webp" alt="">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                   
+                    <h2>Smart TV LED 42" Philco Ptv42g70n5cf Full HD 3 HDMI 2 USB com Midiacast</h2>
+                    
+                    <div class="produto_avaliacao">
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 1.699,99</span>
+                        <strong>R$ 1.649,99</strong>
+                        <p>1x de R$ 1.649,99 sem juros no cartão</p>
+                    </div>
+
+                    <button class="produto_adicionar_carrinho">Comprar</button>
+
+                </li>
+
+                <li class="produto">
+                    
+                    <span class="produto_desconto"> 2%</span>
+
+                    <figure class="produto_foto">
+                        <img src="assets/img/2638610300_1GG.webp" alt="">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                   
+                    <h2>Smart TV LED 42" Philco Ptv42g70n5cf Full HD 3 HDMI 2 USB com Midiacast</h2>
+                    
+                    <div class="produto_avaliacao">
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span class="ativo"></span>
+                        <span></span>
+                    </div>
+
+                    <div class="produto_preco">
+                        <span>R$ 1.699,99</span>
+                        <strong>R$ 1.649,99</strong>
+                        <p>1x de R$ 1.649,99 sem juros no cartão</p>
+                    </div>
+
+                    <button class="produto_adicionar_carrinho">Comprar</button>
+
+                </li>
  
             </ul>
 
         </section>
 
     </main>
+
     <footer></footer>
+    
 </body>
 </html>
 
